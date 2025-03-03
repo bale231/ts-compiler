@@ -1,0 +1,28 @@
+{
+  "name": "typescript-compiler",
+  "version": "1.0.0",
+  "description": "Section Typescript Compiler in Maximilian course TS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bale231/ts-compiler.git"
+  },
+  "keywords": [
+    "ts",
+    "compiler",
+    "npm",
+    "understanding-typescript"
+  ],
+  "author": "Luigi Balestrucci",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bale231/ts-compiler/issues"
+  },
+  "homepage": "https://github.com/bale231/ts-compiler#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
