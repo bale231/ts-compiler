@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <!-- Title -->
-    <title>Understanding TypeScript</title>
+    <title>Calculator TypeScript</title>
     <!-- Google Fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
@@ -27,9 +27,8 @@
         line-height: 1;
         font-size: 16px;
         box-sizing: border-box;
-        margin: 0 auto;
+        margin: 0;
         padding: 0;
-        color: white;
       }
       *,
       *:before,
@@ -77,24 +76,37 @@
       a {
         text-decoration: none;
       }
-
-      /* ! CSS Root container */
-      #root{
-        width: 1440px;
-        height: 800px;
-        padding: 25px;
-        overflow: hidden;
-        color: black;
-        box-shadow: 0 5px 20px rgba(0,0,0,.05);
-        border-radius: 8px;
-        background-color: whitesmoke;
+      /* ! Code */
+      .num-result {
+        font-weight: bold;
+        color: red;
       }
     </style>
     <!-- JS import -->
-    <script src="app.js" defer></script>
+    <script src="calculator.js" defer></script>
   </head>
   <body class="bg-dark">
-    <h1 class="text-center">Hey there</h1>
-    <div id="root" class="container"></div>
+    <form>
+      <h1 class="text-light">Calculator</h1>
+      <label for="n1">
+        <input
+          type="number"
+          placeholder="Number 1"
+          id="n1"
+          class="form-control"
+        />
+      </label>
+      <label for="n2">
+        <input
+          type="number"
+          placeholder="Number 2"
+          id="n2"
+          class="form-control"
+        />
+      </label>
+      <button id="add" type="button" class="btn btn-primary">Add</button>
+    </form>
+
+    <h3 class="mt-5 text-light" id="result"></h3>
   </body>
 </html>
