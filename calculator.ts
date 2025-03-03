@@ -14,6 +14,9 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function printResult(num: number) {
+    if (result === null) {
+      return;
+    }
     result.innerHTML = `Result is: <span class="fw-bold num-result">${num}</span>.`;
   }
 
