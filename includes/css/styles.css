@@ -1,0 +1,76 @@
+/* ! Reset */
+:root {
+  --color-white: #fff;
+  --color--white--smoke: #f5f5f5;
+  --color-black: #000;
+}
+
+body,
+html {
+  font-family: "Intro", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+ol,
+ul {
+  list-style-type: none;
+}
+img {
+  height: auto;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 2rem;
+}
+h4 {
+  font-size: 1rem;
+}
+h5 {
+  font-size: 0.8rem;
+}
+h6 {
+  font-size: 0.6rem;
+}
+a {
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ! CSS Root container */
+#root {
+  width: 1440px;
+  height: 800px;
+  padding: 25px;
+  overflow: hidden;
+  color: var(--color-black);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  background-color: var(--color--white--smoke);
+}

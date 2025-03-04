@@ -25,5 +25,8 @@
   "homepage": "https://github.com/bale231/ts-compiler#readme",
   "devDependencies": {
     "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "typescript-compiler": "file:"
   }
 }
